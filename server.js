@@ -13,7 +13,7 @@ const errorMiddleware = require('./middlewares/errorMiddleware');
 
 // lets tackle cors 
 const corsOptions={
-    origin:"http://localhost:5173",
+    origin:"https://amarthp.netlify.app",
     methods: "GET,HEAD,PUT,PATCH,POST,DELETE" ,
     credentials:true
 }
